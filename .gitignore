@@ -1,0 +1,5 @@
+public_html/wp-config.php
+public_html/_file-manager/**
+.logs/**
+.idea/**
+DO_NOT_UPLOAD_HERE
