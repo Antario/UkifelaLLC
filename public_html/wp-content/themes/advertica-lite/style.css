@@ -715,9 +715,13 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
 
 .clearfix {
  display: block;
- margin-left: auto;
 }
+
+/*map block*/
+
 .contact_bloc{
  display: block;
+}
+#map_style{
  float: right;
 }
