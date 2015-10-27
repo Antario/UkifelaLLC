@@ -723,5 +723,6 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
  display: block;
 }
 #map_style{
+ width: 480px;
  float: right;
 }
