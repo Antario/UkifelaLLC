@@ -35,5 +35,6 @@
 			<div class="continue"><a href="<?php the_permalink(); ?>"><?php _e('Read More','advertica-lite');?></a></div>		  
         </div>
         <!-- skepost -->
+
 </div>
 <!-- post -->

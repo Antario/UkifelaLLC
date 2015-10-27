@@ -27,7 +27,7 @@ Template Name: Full Width Template
 <div class="page-content fullwidth-temp">
 	<div class="container post-wrap">
 		<div class="row-fluid">
-			<div id="content" class="span12">
+			<div id="content" class="span8">
 				<div class="post" id="post-<?php the_ID(); ?>">
 					<div class="skepost">
 						<?php the_content(); ?>
