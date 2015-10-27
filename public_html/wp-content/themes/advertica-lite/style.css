@@ -522,8 +522,8 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
 
 /* =Search
 -------------------------------------------------------------- */
-#searchform .searchleft { float: left; }
-#searchform .searchright {float: left; }
+/*#searchform .searchleft { float: left; }*/
+/*#searchform .searchright {float: left; }*/
 
 /* =Error 404
 -------------------------------------------------------------- */
