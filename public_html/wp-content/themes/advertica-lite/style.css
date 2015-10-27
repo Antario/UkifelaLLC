@@ -694,25 +694,25 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
  box-shadow: none;
 }
 
-/*#left {*/
- /*/!*width: 300px;*!/*/
- /*float: left;*/
-/*}*/
+#left {
+ /*width: 300px;*/
+ float: left;
+}
 
-/*#right {*/
- /*/!*width: 300px;*!/*/
- /*float: right;*/
-/*}*/
+#right {
+ /*width: 300px;*/
+ float: right;
+}
 
-/*.clearfix:after {*/
- /*content:"\0020";*/
- /*display:block;*/
- /*height:0;*/
- /*clear:both;*/
- /*visibility:hidden;*/
- /*overflow:hidden;*/
-/*}*/
+.clearfix:after {
+ content:"\0020";
+ display:block;
+ height:0;
+ clear:both;
+ visibility:hidden;
+ overflow:hidden;
+}
 
-/*.clearfix {*/
- /*display: block;*/
-/*}*/
+.clearfix {
+ display: block;
+}
