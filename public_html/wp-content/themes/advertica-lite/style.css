@@ -695,12 +695,12 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
 }
 
 #left {
- /*width: 300px;*/
+ width: 300px;
  float: left;
 }
 
 #right {
- /*width: 300px;*/
+ width: 300px;
  float: right;
 }
 

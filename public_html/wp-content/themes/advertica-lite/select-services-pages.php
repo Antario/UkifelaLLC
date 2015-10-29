@@ -27,40 +27,10 @@ Template Name: Select Services Pages
         <div class="page-content fullwidth-temp">
         <div class="container post-wrap">
         <div class="row-fluid">
-        <div id="content" class="span6">
+        <div id="content" class="span8">
             <div class="post" id="post-<?php the_ID(); ?>">
                 <div class="skepost">
-                    <div class="clearfix">
-                        <div id="left">
-                            <p>First Name (required)<br />
-                                [text* your-first_name] </p>
-                        </div>
-                        <div id="right">
-                            <p>Last Name (required)<br />
-                                [text* your-last_name] </p>
-                        </div>
-                        <div id="left">
-                            <p>Your Phone (required)<br />
-                                [tel* your-telephone] </p>
-                        </div>
-                        <div id="right">
-                            <p>Your Email (required)<br />
-                                [email* your-email] </p>
-                        </div>
-                        <div id="left">
-                            <p>Select Services<br />
-                                [select* select_services] </p>
-                        </div>
-                        <div id="right">
-                            <p>Select Date<br />
-                                [date* select_date] </p>
-                        </div>
-                    </div>
-
-                    <p>Additional Information<br />
-                        [textarea your-message] </p>
-
-                    <p>[submit "Send"]</p>
+                    <?php echo do_shortcode('[contact-form-7 id="24" title="Select services"]');?>
                 </div>
             </div>
         </div>
