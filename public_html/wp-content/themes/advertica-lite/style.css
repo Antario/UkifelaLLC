@@ -580,7 +580,7 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
  font-family:Arial, Helvetica, sans-serif;
  font-size:16px;
  line-height: 20px;
- width: 100%;
+ width: 95%;
 
  border: 1px solid #323232;
 
@@ -695,13 +695,18 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
 }
 
 #left {
- width: 300px;
+ width: 40%;
  float: left;
 }
 
 #right {
- width: 300px;
- float: right;
+ width: 40%;
+ /*float: right;*/
+ padding-left: 50%;
+}
+
+#down{
+ width: 90%;
 }
 
 .clearfix:after {
@@ -713,6 +718,7 @@ ul.childpages {  list-style-type: disc;  margin-left: 20px;  }
  overflow:hidden;
 }
 
-.clearfix {
+.clearfix_form {
  display: block;
+ padding-left: 7%;
 }

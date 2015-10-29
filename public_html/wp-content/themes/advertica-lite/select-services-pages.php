@@ -27,7 +27,7 @@ Template Name: Select Services Pages
         <div class="page-content fullwidth-temp">
         <div class="container post-wrap">
         <div class="row-fluid">
-        <div id="content" class="span8">
+        <div id="content" class="span12">
             <div class="post" id="post-<?php the_ID(); ?>">
                 <div class="skepost">
                     <?php echo do_shortcode('[contact-form-7 id="24" title="Select services"]');?>
