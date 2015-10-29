@@ -31,6 +31,8 @@ Template Name: Contact Page
                         <div class="post" id="post-<?php the_ID(); ?>">
                             <div class="skepost">
                                 <?php echo do_shortcode('[wpgmza id="1"]'); ?>
+                                <h2>Address: 780 Ridge Rd #8, Webster, NY 14580</h2>
+                                <h2>Phone:(585) 347-4552</h2>
                             </div>
                         </div>
                     </div>
