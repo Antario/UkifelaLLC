@@ -30,11 +30,11 @@ get_header(); ?>
 				<div id="content">
 					<?php if(have_posts()) : ?>
 					<?php /* The loop */ ?>
-					<?php while(have_posts()) : the_post(); ?>
-					<?php if(is_sticky($post->ID)) { _e("<div class='sticky-post'>featured</div>",'advertica-lite'); } ?>
-					<?php get_template_part( 'content', get_post_format() ); ?>
-					<?php endwhile; ?>
-					<?php
+<!--					--><?php //while(have_posts()) : the_post(); ?>
+<!--					--><?php //if(is_sticky($post->ID)) { _e("<div class='sticky-post'>featured</div>",'advertica-lite'); } ?>
+<!--					--><?php //get_template_part( 'content', get_post_format() ); ?>
+<!--					--><?php //endwhile; ?>
+<!--					--><?php
 						$prev_link = get_previous_posts_link('&larr;Previous');
 						$next_link = get_next_posts_link('Next&rarr;');
 						if($prev_link || $next_link){

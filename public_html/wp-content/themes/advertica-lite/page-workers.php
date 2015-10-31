@@ -30,8 +30,16 @@ Template Name: Workers Template
         <div id="content" class="span12">
         <div class="post" id="post-<?php the_ID(); ?>">
             <div class="skepost">
-                <?php the_content(); ?>
-                <?php wp_link_pages(array('before' => '<p><strong>'.__('Pages :','advertica-lite').'</strong>','after' => '</p>', __('number','advertica-lite'),));	?>
+<!--                --><?php //the_content();?>
+<!--                --><?php //wp_link_pages(array('before' => '<p><strong>'.__('Pages :','advertica-lite').'</strong>','after' => '</p>', __('number','advertica-lite'),));	?>
+                <div class="workers_post">
+                    <div id="post_left">
+                        <?php echo do_shortcode("[ic_add_posts category='workers_left']"); ?>
+                    </div>
+                    <div id="post_right">
+                        <?php echo do_shortcode("[ic_add_posts category='workers_right']"); ?>
+                    </div>
+                </div>
             </div>
             <!-- skepost -->
         </div>

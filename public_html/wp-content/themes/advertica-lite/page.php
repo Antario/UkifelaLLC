@@ -39,10 +39,10 @@ get_header(); ?>
 					<!-- skepost --> 
 					</div>
 					<!-- post -->
-					<?php edit_post_link( __('Edit', 'advertica-lite') , '', ''); ?>
-					<?php if ( comments_open() || get_comments_number() ) {
-						comments_template();
-					} ?>
+<!--					--><?php //edit_post_link( __('Edit', 'advertica-lite') , '', ''); ?>
+<!--					--><?php //if ( comments_open() || get_comments_number() ) {
+//						comments_template();
+//					} ?>
 					<?php endwhile; ?>
 					<?php else :  ?>
 						<div class="post">
